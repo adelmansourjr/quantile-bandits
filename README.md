@@ -1,6 +1,6 @@
 # When Q-SAR needs a quantile objective
 
-**For Mengyan Zhang.** The ICML paper replaces mean ranking with quantile ranking in fixed-budget best-arm identification. I implemented the paper's two-boundary accept/reject algorithm and descending order-statistic convention and held the realised sample budget constant across the allocation and objective controls. The experiment asks when the target quantile justifies the statistical price of estimating it. [Zhang and Ong 2021, Algorithm 1](https://proceedings.mlr.press/v139/zhang21o.html).
+Zhang and Ong’s ICML paper replaces mean ranking with quantile ranking in fixed-budget best-arm identification. I implemented the paper's two-boundary accept/reject algorithm and descending order-statistic convention and held the realised sample budget constant across the allocation and objective controls. The experiment asks when the target quantile justifies the statistical price of estimating it. [Zhang and Ong 2021, Algorithm 1](https://proceedings.mlr.press/v139/zhang21o.html).
 
 Each method selects two of eight stochastic arms by evidence available within the budget. The evaluator knows the analytic lower 20th percentiles. A two-stage budgeted control takes eight samples per arm, then focuses on the four empirical boundary neighbours. All methods share potential reward streams within each of 800 worlds per family. The 320-cap schedule takes 317 draws, also used by every comparator. The [fixed protocol](PROTOCOL.md) defines exponential arms, near-ties and heterogeneous tails before evaluations.
 
