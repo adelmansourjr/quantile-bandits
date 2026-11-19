@@ -1,0 +1,390 @@
+{
+  "trials_per_family": 800,
+  "protocol_sha256": "da94861198b989dec640c9d5cf9779d280a4ac9c11d91bbf82e499401dfbdcfe",
+  "primary": {
+    "recovery_difference": 0.04,
+    "interval95": [
+      0.00875,
+      0.07125
+    ]
+  },
+  "success_gate": true,
+  "results": {
+    "separated_exponential": {
+      "160": {
+        "actual_sample_counts": [
+          156
+        ],
+        "arms": {
+          "q_sar": {
+            "recovery": 0.27875,
+            "mean_quantile_loss": 0.052956374753343735
+          },
+          "mean_sar": {
+            "recovery": 0.5175,
+            "mean_quantile_loss": 0.025424300524992588
+          },
+          "uniform_quantile": {
+            "recovery": 0.23625,
+            "mean_quantile_loss": 0.06103231624316226
+          },
+          "two_stage_quantile": {
+            "recovery": 0.26375,
+            "mean_quantile_loss": 0.06248512774049716
+          }
+        },
+        "q_sar_minus": {
+          "mean_sar": {
+            "recovery_difference": -0.23875,
+            "interval95": [
+              -0.27875,
+              -0.2
+            ]
+          },
+          "uniform_quantile": {
+            "recovery_difference": 0.0425,
+            "interval95": [
+              0.01125,
+              0.0725
+            ]
+          },
+          "two_stage_quantile": {
+            "recovery_difference": 0.015,
+            "interval95": [
+              -0.015,
+              0.045
+            ]
+          }
+        }
+      },
+      "320": {
+        "actual_sample_counts": [
+          317
+        ],
+        "arms": {
+          "q_sar": {
+            "recovery": 0.34875,
+            "mean_quantile_loss": 0.04042891795501296
+          },
+          "mean_sar": {
+            "recovery": 0.64125,
+            "mean_quantile_loss": 0.013987163799132136
+          },
+          "uniform_quantile": {
+            "recovery": 0.30875,
+            "mean_quantile_loss": 0.049092254245948895
+          },
+          "two_stage_quantile": {
+            "recovery": 0.245,
+            "mean_quantile_loss": 0.07031351499379322
+          }
+        },
+        "q_sar_minus": {
+          "mean_sar": {
+            "recovery_difference": -0.2925,
+            "interval95": [
+              -0.3325,
+              -0.25125
+            ]
+          },
+          "uniform_quantile": {
+            "recovery_difference": 0.04,
+            "interval95": [
+              0.00875,
+              0.07125
+            ]
+          },
+          "two_stage_quantile": {
+            "recovery_difference": 0.10375,
+            "interval95": [
+              0.07125,
+              0.135
+            ]
+          }
+        }
+      }
+    },
+    "exponential_near_ties": {
+      "160": {
+        "actual_sample_counts": [
+          156
+        ],
+        "arms": {
+          "q_sar": {
+            "recovery": 0.205,
+            "mean_quantile_loss": 0.040586783735207216
+          },
+          "mean_sar": {
+            "recovery": 0.32,
+            "mean_quantile_loss": 0.019443528069782987
+          },
+          "uniform_quantile": {
+            "recovery": 0.16375,
+            "mean_quantile_loss": 0.04714685063303386
+          },
+          "two_stage_quantile": {
+            "recovery": 0.17375,
+            "mean_quantile_loss": 0.050860263186315764
+          }
+        },
+        "q_sar_minus": {
+          "mean_sar": {
+            "recovery_difference": -0.115,
+            "interval95": [
+              -0.15375,
+              -0.07746875000000046
+            ]
+          },
+          "uniform_quantile": {
+            "recovery_difference": 0.04125,
+            "interval95": [
+              0.0125,
+              0.06875
+            ]
+          },
+          "two_stage_quantile": {
+            "recovery_difference": 0.03125,
+            "interval95": [
+              0.0025,
+              0.06
+            ]
+          }
+        }
+      },
+      "320": {
+        "actual_sample_counts": [
+          317
+        ],
+        "arms": {
+          "q_sar": {
+            "recovery": 0.2275,
+            "mean_quantile_loss": 0.03294724446160159
+          },
+          "mean_sar": {
+            "recovery": 0.375,
+            "mean_quantile_loss": 0.013561116430604474
+          },
+          "uniform_quantile": {
+            "recovery": 0.2025,
+            "mean_quantile_loss": 0.0366445576061498
+          },
+          "two_stage_quantile": {
+            "recovery": 0.1625,
+            "mean_quantile_loss": 0.05840528868190973
+          }
+        },
+        "q_sar_minus": {
+          "mean_sar": {
+            "recovery_difference": -0.1475,
+            "interval95": [
+              -0.18875,
+              -0.10625
+            ]
+          },
+          "uniform_quantile": {
+            "recovery_difference": 0.025,
+            "interval95": [
+              -0.00375,
+              0.05375
+            ]
+          },
+          "two_stage_quantile": {
+            "recovery_difference": 0.065,
+            "interval95": [
+              0.035,
+              0.095
+            ]
+          }
+        }
+      }
+    },
+    "heterogeneous_weibull": {
+      "160": {
+        "actual_sample_counts": [
+          156
+        ],
+        "arms": {
+          "q_sar": {
+            "recovery": 0.3125,
+            "mean_quantile_loss": 0.049480395447340265
+          },
+          "mean_sar": {
+            "recovery": 0.13875,
+            "mean_quantile_loss": 0.10326716517993172
+          },
+          "uniform_quantile": {
+            "recovery": 0.285,
+            "mean_quantile_loss": 0.05526436488080739
+          },
+          "two_stage_quantile": {
+            "recovery": 0.3025,
+            "mean_quantile_loss": 0.05187015674570757
+          }
+        },
+        "q_sar_minus": {
+          "mean_sar": {
+            "recovery_difference": 0.17375,
+            "interval95": [
+              0.13625,
+              0.21003124999999953
+            ]
+          },
+          "uniform_quantile": {
+            "recovery_difference": 0.0275,
+            "interval95": [
+              -0.00375,
+              0.05875
+            ]
+          },
+          "two_stage_quantile": {
+            "recovery_difference": 0.01,
+            "interval95": [
+              -0.02125,
+              0.04
+            ]
+          }
+        }
+      },
+      "320": {
+        "actual_sample_counts": [
+          317
+        ],
+        "arms": {
+          "q_sar": {
+            "recovery": 0.47125,
+            "mean_quantile_loss": 0.03262232343633263
+          },
+          "mean_sar": {
+            "recovery": 0.14875,
+            "mean_quantile_loss": 0.10233011885167588
+          },
+          "uniform_quantile": {
+            "recovery": 0.41125,
+            "mean_quantile_loss": 0.03837797314241159
+          },
+          "two_stage_quantile": {
+            "recovery": 0.4,
+            "mean_quantile_loss": 0.04371671821905374
+          }
+        },
+        "q_sar_minus": {
+          "mean_sar": {
+            "recovery_difference": 0.3225,
+            "interval95": [
+              0.28371875,
+              0.36125
+            ]
+          },
+          "uniform_quantile": {
+            "recovery_difference": 0.06,
+            "interval95": [
+              0.0275,
+              0.0925
+            ]
+          },
+          "two_stage_quantile": {
+            "recovery_difference": 0.07125,
+            "interval95": [
+              0.03625,
+              0.10625
+            ]
+          }
+        }
+      }
+    },
+    "two_piece": {
+      "160": {
+        "actual_sample_counts": [
+          156
+        ],
+        "arms": {
+          "q_sar": {
+            "recovery": 0.20875,
+            "mean_quantile_loss": 0.22932141852917381
+          },
+          "mean_sar": {
+            "recovery": 0.21875,
+            "mean_quantile_loss": 0.22820580181320554
+          },
+          "uniform_quantile": {
+            "recovery": 0.20375,
+            "mean_quantile_loss": 0.24554240276105652
+          },
+          "two_stage_quantile": {
+            "recovery": 0.2175,
+            "mean_quantile_loss": 0.232657135638696
+          }
+        },
+        "q_sar_minus": {
+          "mean_sar": {
+            "recovery_difference": -0.01,
+            "interval95": [
+              -0.03625,
+              0.01625
+            ]
+          },
+          "uniform_quantile": {
+            "recovery_difference": 0.005,
+            "interval95": [
+              -0.02125,
+              0.03125
+            ]
+          },
+          "two_stage_quantile": {
+            "recovery_difference": -0.00875,
+            "interval95": [
+              -0.035,
+              0.0175
+            ]
+          }
+        }
+      },
+      "320": {
+        "actual_sample_counts": [
+          317
+        ],
+        "arms": {
+          "q_sar": {
+            "recovery": 0.235,
+            "mean_quantile_loss": 0.21348859067151152
+          },
+          "mean_sar": {
+            "recovery": 0.26125,
+            "mean_quantile_loss": 0.21697573781967477
+          },
+          "uniform_quantile": {
+            "recovery": 0.235,
+            "mean_quantile_loss": 0.22459456442502165
+          },
+          "two_stage_quantile": {
+            "recovery": 0.2275,
+            "mean_quantile_loss": 0.21696641855624152
+          }
+        },
+        "q_sar_minus": {
+          "mean_sar": {
+            "recovery_difference": -0.02625,
+            "interval95": [
+              -0.05625,
+              0.0025
+            ]
+          },
+          "uniform_quantile": {
+            "recovery_difference": 0.0,
+            "interval95": [
+              -0.0275,
+              0.0275
+            ]
+          },
+          "two_stage_quantile": {
+            "recovery_difference": 0.0075,
+            "interval95": [
+              -0.02125,
+              0.03625
+            ]
+          }
+        }
+      }
+    }
+  }
+}
